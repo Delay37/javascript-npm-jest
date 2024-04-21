@@ -7,6 +7,13 @@
 
 function listaImpares(limite) {
     // Retorna um array contendo todos os números ímpares até 'limite'
+    let impares = [];
+    for (let i = 1; i <= limite; i++) {
+        if (i % 2 !== 0) {
+            impares.push(i);
+        }
+    }
+    return impares;
 }
 
 /*
@@ -15,6 +22,8 @@ function listaImpares(limite) {
 */
 function contaCaracteres(texto, caracter) {
     // Retorna a quantidade de vezes que 'caracter' aparece em 'texto'
+    const contador = texto.split(caracter).length - 1;
+    return contador;
 }
 
 module.exports = {
