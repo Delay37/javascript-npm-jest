@@ -4,15 +4,18 @@
 */
 
 function concatenaTexto(texto1, texto2) {
-    // Implemente a função que retorna a concatenação de texto1 e texto2
+    let textoConcatenado = texto1 + texto2;
+    return(textoConcatenado);
 }
 
 function concatenaTextoNumero(texto, numero) {
-    // Implemente a função que retorna a concatenação de texto com numero
+    let textoNumeroConcatenado = texto + numero;
+    return(textoNumeroConcatenado)
 }
 
 function concatenaNumeroTexto(numero, texto) {
-    // Implemente a função que retorna a concatenação de numero com texto
+    let numeroTextoConcatenado = numero + texto;
+    return(numeroTextoConcatenado)
 }
 
 module.exports = {

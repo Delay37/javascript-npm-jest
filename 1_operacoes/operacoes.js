@@ -1,18 +1,22 @@
 
 function soma(numeroUm, numeroDois) {
-    // Faça a implementação, não esqueça do return
+    let resultadoSoma = numeroUm + numeroDois;
+    return(resultadoSoma);
 }
 
 function subtracao(numeroUm, numeroDois) {
-    // Faça a implementação, não esqueça do return
+    let resultadoSubtracao = numeroUm - numeroDois;
+    return(resultadoSubtracao);
 }
 
 function multiplicacao(numeroUm, numeroDois) {
-    // Faça a implementação, não esqueça do return
+    let resultadoMultiplicacao = numeroUm * numeroDois;
+    return(resultadoMultiplicacao)
 }
 
 function divisao(numeroUm, numeroDois) {
-    // Faça a implementação, não esqueça do return
+    let resultadoDivisao = numeroUm / numeroDois;
+    return(resultadoDivisao);
 }
 
 module.exports = {

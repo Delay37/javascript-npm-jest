@@ -7,6 +7,17 @@
 
 function listaImpares(limite) {
     // Retorna um array contendo todos os números ímpares até 'limite'
+    let cont = 0;
+    let i = 0;
+    let numeros = [];
+    while (cont != limite){
+        cont +=1;
+        if (cont % 2 != 0){
+            numeros[i] = cont;
+            i +=1;
+        }
+    }
+    return(numeros);
 }
 
 /*
@@ -15,6 +26,15 @@ function listaImpares(limite) {
 */
 function contaCaracteres(texto, caracter) {
     // Retorna a quantidade de vezes que 'caracter' aparece em 'texto'
+    let cont = 0;
+    let quantidade = 0;
+    while (cont != texto.length) {  // Corrigido para 'texto.length'
+        if (texto[cont] === caracter) {
+            quantidade += 1;
+        }
+        cont += 1;
+    }
+    return quantidade;
 }
 
 module.exports = {
